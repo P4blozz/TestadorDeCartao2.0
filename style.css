@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://wallpapers.com/images/hd/credit-card-pictures-ho8qwekejht4967b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+    
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 30px;
+    color: #e6e6e6;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.logo-button {
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.logo-button img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.logo-button img:hover {
+    transform: scale(1.1);
+}
